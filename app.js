@@ -37,6 +37,8 @@ http.createServer(function(request, response) {
     response.end();
   }
   
+
+  
 }).listen(process.env.PORT ||3000);
 console.log("Server已開啟port: 3000.");
 
